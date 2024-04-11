@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unifacisa </title>
+  <title>Unifacisa - Login </title>
   <link rel="icon" type="image/x-icon" href="/img/logo-top.png">
 
   <link rel="stylesheet" href="/css/style.css">
@@ -29,45 +29,40 @@
 
   </header>
 
-  <section class="banner">
-    <img src="/img/New.jpg" alt="">
-  </section>
+  <section class="formulario borer-top">
 
-  <section class="introducao container">
+    <div class="container">
+      <a class="links" id="paracadastro"></a>
+      <a class="links" id="paralogin"></a>
 
-    <div class="box-1">
-      <h1>#LET'S GO <br> UNIFACISA!</h1>
-      <p>
+      <div class="content">
 
 
-        Join Unifacisa and gain access to high-quality higher education at an institution that stands out as one of the best in Brazil, ranked in the top 5% of higher education institutions by the Ministry of Education (MEC).</p>
-    </div>
+        <div>
+          <form method="post" action="">
+            <h1>Login</h1>
+            <p>
+              <label for="nome_login">Login</label>
+              <input id="nome_login" name="nome_login" required="required" type="text" placeholder="" />
+            </p>
 
-    <div class="box-2">
+            <p>
+              <label for="email_login">Password</label>
+              <input id="email_login" name="email_login" required="required" type="password" placeholder="" />
+            </p>
 
-      <ul>
-        <li>
-          <img src="/img/introducao/UNIFACISA-ICON1-Branco.svg" alt="">
-          <p>Partnerships with major companies</p>
-        </li>
+            <p>
+              <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+              <label for="manterlogado">Keep-me logged in </label>
+            </p>
 
-        <li>
-          <img src="/img/introducao/UNIFACISA-ICON2-Branco.svg" alt="">
-          <p>Complete university complex</p>
-        </li>
+            <p>
+              <input type="submit" value="Login" />
+            </p>
 
-        <li>
-          <img src="/img/introducao/UNIFACISA-ICON3-Branco.svg" alt="">
-          <p>Social impact and practical learning</p>
-        </li>
+          </form>
+        </div>
 
-        <li>
-          <img src="/img/introducao/UNIFACISA-ICON4-Branco.svg" alt="">
-          <p>Institution dedicated to educational excellence</p>
-        </li>
-      </ul>
-
-    </div>
   </section>
 
   <footer class="container bottom0">

@@ -40,6 +40,11 @@ img {
  width: 100%;
  
 }
+
+.formulario {
+  display: flex;
+  margin: auto;
+}
 /* * {
   border: solid 1px red;
 } */
